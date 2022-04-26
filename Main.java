@@ -32,8 +32,8 @@ public class Main
         Node root1 = TreeFunctions.copyTree(root);
 
         //check if the tree is copied properly
-        TreeFunctions.calculateChildrenlessNodes(root1);
-        TreeFunctions.calculateLongestPath(root1);
+        System.out.println("number of nodes without any children: " + TreeFunctions.calculateChildrenlessNodes(root1));
+        System.out.println("the longest route in the tree from the root: " + TreeFunctions.calculateLongestPath(root1));
         System.out.println();
 
         //task 3
@@ -59,12 +59,12 @@ public class Main
 
         //additional tests
 
-        TreeFunctions.calculateChildrenlessNodes(root2);
-        TreeFunctions.calculateLongestPath(root2);
+        System.out.println("number of nodes without any children: " + TreeFunctions.calculateChildrenlessNodes(root2));
+        System.out.println("the longest route in the tree from the root: " + TreeFunctions.calculateLongestPath(root2));
         System.out.println();
 
-        TreeFunctions.calculateChildrenlessNodes(root3);
-        TreeFunctions.calculateLongestPath(root3);
+        System.out.println("number of nodes without any children: " + TreeFunctions.calculateChildrenlessNodes(root3));
+        System.out.println("the longest route in the tree from the root: " + TreeFunctions.calculateLongestPath(root3));
         System.out.println();
 
         System.out.println("the trees have the same values and connections: " + root2.equals(root3));
