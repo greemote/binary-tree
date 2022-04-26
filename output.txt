@@ -1,0 +1,26 @@
+a parent already has two leaves
+
+[2, 5, 1, 2, 5]
+number of nodes without any children: 5
+
+5 -> 7 -> 0 -> 8 -> 5
+the longest route in the tree from the root: 5
+
+[2, 5, 1, 2, 5]
+number of nodes without any children: 5
+5 -> 7 -> 0 -> 8 -> 5
+the longest route in the tree from the root: 5
+
+the trees have the same values and connections: true
+
+[2, 5, 6]
+number of nodes without any children: 3
+1 -> 3 -> 4 -> 6
+the longest route in the tree from the root: 4
+
+[7, 5]
+number of nodes without any children: 2
+10 -> 9 -> 8 -> 6 -> 5
+the longest route in the tree from the root: 5
+
+the trees have the same values and connections: false
